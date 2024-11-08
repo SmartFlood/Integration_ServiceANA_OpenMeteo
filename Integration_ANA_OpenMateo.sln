@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration_ANA_OpenMateo", "Integration_ANA_OpenMateo\Integration_ANA_OpenMateo.csproj", "{BAEE327C-775E-45CF-A8D1-37CB9BFE6961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAEE327C-775E-45CF-A8D1-37CB9BFE6961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEE327C-775E-45CF-A8D1-37CB9BFE6961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEE327C-775E-45CF-A8D1-37CB9BFE6961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEE327C-775E-45CF-A8D1-37CB9BFE6961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
