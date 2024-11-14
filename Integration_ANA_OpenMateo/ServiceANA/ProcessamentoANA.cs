@@ -28,7 +28,7 @@ public static class ProcessamentoANA
 
                 foreach (var dado in grupo)
                 {
-                    writerDados.WriteLine($"{dado.DataHora}; {dado.Vazao:F2}; {dado.Nivel:F2}; {dado.Chuva:F2}");
+                    writerDados.WriteLine($"{dado.DataHora}; {dado.Vazao:F2}; {dado.Nivel:F2}; {dado.Chuva:F2}".Replace(',', '.'));
 
                     if (dado.Vazao > maxVazao) maxVazao = dado.Vazao;
                     if (dado.Nivel > maxNivel) maxNivel = dado.Nivel;
@@ -42,7 +42,7 @@ public static class ProcessamentoANA
                 var mediaVazao = countVazao > 0 ? somaVazao / countVazao : 0;
                 var dataFormatada = DateTime.ParseExact(dataDoGrupo, "dd-MM-yyyy", null).ToString("dd/MM/yyyy");
                 
-                writerTotais.WriteLine($"{dataFormatada}; {totalChuva:F2}; {maxVazao:F2}; {mediaVazao:F2}; {maxNivel:F2}; {minNivel:F2}");
+                writerTotais.WriteLine($"{dataFormatada}; {totalChuva:F2}; {maxVazao:F2}; {mediaVazao:F2}; {maxNivel:F2}; {minNivel:F2}".Replace(',', '.'));
             }
         }
 

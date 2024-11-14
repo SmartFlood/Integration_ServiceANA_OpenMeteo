@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Text.Json;
 
 namespace Integration_ANA_OpenMateo.OpenMeteo;
@@ -32,7 +33,7 @@ public static class OpenMeteoService
                     if (forecast.hourly?.time != null)
                     {
                         forecast.hourly.time = forecast.hourly.time
-                            .Select(date => date.ToUniversalTime())
+                            .Select(date => date.ToLocalTime())
                             .ToList();
                     }
 

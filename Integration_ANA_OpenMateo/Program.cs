@@ -4,7 +4,6 @@ using Integration_ANA_OpenMateo.ServiceANA;
 Console.WriteLine("Iniciando a aplicação");
 
 #region ServiceANA
-
 Console.WriteLine("Processando o Service ANA");
 
 const string codEstacao = "87399000";

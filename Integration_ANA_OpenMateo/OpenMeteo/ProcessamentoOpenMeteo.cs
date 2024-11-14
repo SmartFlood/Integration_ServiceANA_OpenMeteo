@@ -32,14 +32,14 @@ public static class ProcessamentoOpenMeteo
                     {
                         writerGeral.WriteLine(
                             $"{item.time:dd/MM/yyyy HH:mm:ss}; {item.precipitation:F2}"
-                                .Replace('.', ','));
+                                .Replace(',', '.'));
 
                         somaPrecipitation += item.precipitation;
                     }
-                    
+
                     writerTotais.WriteLine(
                         $"{grupo.Key:dd/MM/yyyy}; {somaPrecipitation:F2}"
-                            .Replace('.', ','));
+                                .Replace(',', '.'));
                 }
             }
 

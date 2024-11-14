@@ -19,6 +19,7 @@
       "packagesPath": "/Users/jhordan/.nuget/packages/",
       "outputPath": "/Users/jhordan/Desenvolvimento/Smart_Flood/Integration_ANA_OpenMateo/Integration_ANA_OpenMateo/Integration_ANA_OpenMateo/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/jhordan/.nuget/NuGet/NuGet.Config"
       ],
